@@ -1,0 +1,7 @@
+:root {
+  --cor-primaria: hsl(322, 100%, 66%);
+  /*Neutras*/
+  --cor-n-1: hsl(193, 100%, 96%);
+  --cor-n-2: hsl(192, 100%, 9%);
+  --cor-n-3: hsl(208, 11%, 55%);
+}
