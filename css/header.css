@@ -1,0 +1,50 @@
+.header-bg {
+  background: url(../img/bg-hero-desktop.svg) var(--cor-n-1);
+}
+
+.header- {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px 40px;
+}
+
+.header- img {
+  max-width: 120px;
+}
+
+.header- .button {
+  box-shadow: 0px 0px 4px #ccc;
+}
+
+.header- a:hover {
+  color: #888;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 0px 60px;
+  gap: 60px;
+}
+
+.introdution-title {
+  font-family: "Poppins";
+  text-transform: capitalize;
+  margin-bottom: 18px;
+}
+
+.introdution-txt {
+  font-family: "Open Sans";
+  font-size: 0.7rem;
+  line-height: 1.5;
+  max-width: 57ch;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.introdution .button {
+  background-color: var(--cor-primaria);
+  color: #fff;
+}
